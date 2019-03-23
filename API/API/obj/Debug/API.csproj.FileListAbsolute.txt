@@ -222,3 +222,6 @@ C:\Users\Sidharth\source\SidProjects\Angular\RedPlus\API\API\obj\Debug\API.cspro
 C:\Users\Sidharth\source\SidProjects\Angular\RedPlus\API\API\obj\Debug\API.csproj.CopyComplete
 C:\Users\Sidharth\source\SidProjects\Angular\RedPlus\API\API\obj\Debug\API.dll
 C:\Users\Sidharth\source\SidProjects\Angular\RedPlus\API\API\obj\Debug\API.pdb
+C:\Users\Sidharth\source\SidProjects\Angular\RedPlus\API\API\bin\System.Web.Cors.dll
+C:\Users\Sidharth\source\SidProjects\Angular\RedPlus\API\API\bin\System.Web.Http.Cors.dll
+C:\Users\Sidharth\source\SidProjects\Angular\RedPlus\API\API\bin\System.Web.Http.Cors.xml
