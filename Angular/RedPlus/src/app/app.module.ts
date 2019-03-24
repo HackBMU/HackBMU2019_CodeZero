@@ -17,12 +17,12 @@ import {ReactiveFormsModule} from '@angular/forms'
     LoginComponent,
     NavbarComponent,
     IndexComponent,
-    ReactiveFormsModule
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

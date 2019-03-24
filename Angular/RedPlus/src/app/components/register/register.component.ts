@@ -24,9 +24,9 @@ export class RegisterComponent implements OnInit {
       Password :new FormControl(),
       ConfirmPassword :new FormControl(),
       PhoneNumber :new FormControl(),
-      Address :new FormControl(),
+      Address :new FormControl()
      
     
+  });
   }
-
 }
