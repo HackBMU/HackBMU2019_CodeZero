@@ -35,7 +35,7 @@ namespace API.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("mongodb://utkarsh:admin123123@ds331735.mlab.com:31735/redplus")]
+        [global::System.Configuration.DefaultSettingValueAttribute("mongodb://sid:asdf12@ds012889.mlab.com:12889/redplus")]
         public string ConString {
             get {
                 return ((string)(this["ConString"]));

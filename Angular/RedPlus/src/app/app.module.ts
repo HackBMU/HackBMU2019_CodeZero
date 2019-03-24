@@ -7,6 +7,8 @@ import { RegisterComponent } from './components/register/register.component';
 import { LoginComponent } from './components/login/login.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { IndexComponent } from './index/index.component';
+import {FormsModule} from '@angular/forms'
+import {ReactiveFormsModule} from '@angular/forms'
 
 @NgModule({
   declarations: [
@@ -14,11 +16,13 @@ import { IndexComponent } from './index/index.component';
     RegisterComponent,
     LoginComponent,
     NavbarComponent,
-    IndexComponent
+    IndexComponent,
+    ReactiveFormsModule
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
