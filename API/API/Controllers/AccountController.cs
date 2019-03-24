@@ -25,6 +25,7 @@ namespace API.Controllers
     {
         private const string LocalLoginProvider = "Local";
         private ApplicationUserManager _userManager;
+        private ApplicationDbContext mongoInstance = new ApplicationDbContext();
 
         public AccountController()
         {
@@ -313,7 +314,7 @@ namespace API.Controllers
 
         // POST api/Account/Register
         [AllowAnonymous]
-        [Route("UserRegister")][HttpPost]
+       [HttpPost][Route("UserRegister")]
         public async Task<IHttpActionResult> UserRegister(UserRegisterBindingModel model)
         {
             if (!ModelState.IsValid)
@@ -329,11 +330,13 @@ namespace API.Controllers
             {
                 return GetErrorResult(result);
             }
+            await mongoInstance.NormalUser.InsertOneAsync(model);
 
             return Ok();
         }
 
         [AllowAnonymous]
+        [HttpPost]
         [Route("HospitalRegister")]
         public async Task<IHttpActionResult> HospitalRegister(HospitalRegisterBindingModel model)
         {
@@ -351,10 +354,12 @@ namespace API.Controllers
                 return GetErrorResult(result);
             }
 
+            await mongoInstance.Hospital.InsertOneAsync(model);
             return Ok();
         }
 
         [AllowAnonymous]
+        [HttpPost]
         [Route("DriverRegister")]
         public async Task<IHttpActionResult> DriverRegister(DriverRegisterBindingModel model)
         {
@@ -372,6 +377,7 @@ namespace API.Controllers
                 return GetErrorResult(result);
             }
 
+            await mongoInstance.Driver.InsertOneAsync(model);
             return Ok();
         }
 

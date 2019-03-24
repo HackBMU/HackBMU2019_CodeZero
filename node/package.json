@@ -22,6 +22,7 @@
   "homepage": "https://github.com/Sid12261996/AmbulanceProject#readme",
   "dependencies": {
     "express": "^4.16.4",
+    "nodemon": "^1.18.10",
     "socket.io": "^2.1.1"
   }
 }

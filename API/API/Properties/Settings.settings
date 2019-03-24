@@ -8,9 +8,9 @@
     <Setting Name="ConString" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionString&gt;mongodb://sid:rapitup1@ds213688.mlab.com:13688/rapitup&lt;/ConnectionString&gt;
+  &lt;ConnectionString&gt;mongodb://utkarsh:admin123123@ds331735.mlab.com:31735/redplus&lt;/ConnectionString&gt;
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
-      <Value Profile="(Default)">mongodb://sid:rapitup1@ds213688.mlab.com:13688/rapitup</Value>
+      <Value Profile="(Default)">mongodb://utkarsh:admin123123@ds331735.mlab.com:31735/redplus</Value>
     </Setting>
   </Settings>
 </SettingsFile>
